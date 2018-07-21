@@ -10,18 +10,6 @@
 #but each element in the state vector x is updated x_1,...,x_n
 #so it is deterministic
 
-#currently doing the simple implementation that uses a grid of squares
-#in the future, we will do grayscale images
-#and then the model using 3 networks, one each for R, G, and B
-#implementing the pictures would not be hard.  You just have to use PIL
-#and convert them to grayscale and then apply the algorithm.
-
-#to do in future:
-#1. implement the energy function and print the energy of the network
-#   at each step
-#2. the ability to drag across states to make it easier
-#   to input state vectors
-
 from tkinter import *
 import numpy as np
 import random as rand
